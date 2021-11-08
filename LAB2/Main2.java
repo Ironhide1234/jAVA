@@ -1,3 +1,9 @@
+// Task10 
+// сформировать массив b из    исходного одномерного массива a по следующему алгоритму:
+// bi равняется количеству элементов со значением,
+//равным ai , в массиве a. 
+
+
 import java.util.Scanner;
 
 public class Main2 {
@@ -17,7 +23,7 @@ public class Main2 {
         gachi(arr2, arr1);
         System.out.println("Your new array: ");
         for(int i = 1; i<5; i++){
-            System.out.println(arr2[i]);
+            System.out.println(arr2[i-1]);
         }
 }
 

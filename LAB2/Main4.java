@@ -1,3 +1,10 @@
+// Task20
+// Определите (в процентах от общего количества элементов), сколько элементов в массиве a имеют значение меньшее,
+// чем среднее значение, сколько элементов – значение, равное среднему значению
+// и сколько элементов имеют значение, большее, чем среднее значение.
+
+
+
 import java.util.Scanner;
 
 public class Main4 {
@@ -23,7 +30,7 @@ public class Main4 {
     public static double avg(int [] array){
         float average = 0;
         for(int i = 0; i < array.length; i++){
-            average +=array[i];
+            average += array[i];
         }
         return average/array.length;
     }
